@@ -80,9 +80,7 @@ While our AQI prediction model provides useful insights, it is important to unde
 **Data Collection:**
 
 The data was collected from the U.S. Environmental Protection Agency (EPA) website.
-
 We used web scraping with a tool called BeautifulSoup to download the datasets.
-
 The collected datasets were provided in CSV format.
 
 **Data Preparation:**
