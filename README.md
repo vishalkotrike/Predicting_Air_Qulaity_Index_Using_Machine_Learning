@@ -11,7 +11,9 @@ This project is my Master's capstone project in Data Science. The goal is to dev
 3. [Methodology](#methodology)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
-6. [How to Run the Project](#HowtoRuntheProject)
+6. [Future Direction] (#futureDirections)
+7. [How to Run the Project](#HowtoRuntheProject)
+
 
 ## Introduction
 Air pollution is a critical problem that impacts both public health and the environment. According to the World Health Organization, air pollution causes millions of deaths each year, and it contributes significantly to climate change. With rising pollution levels in many parts of the world, there is an urgent need for tools that can predict air quality and help mitigate its negative impacts. This project aims to create a predictive model that forecasts Air Quality Index (AQI) levels, helping authorities and the public take preemptive actions.
@@ -43,6 +45,13 @@ The model is effective at predicting AQI levels and can help forecast air qualit
 
 ## Conclusion
 The predictive model developed in this project effectively forecasts AQI levels, allowing authorities and the public to take preemptive measures. Further improvement could be achieved by incorporating additional data sources or exploring advanced ensemble techniques.
+
+## Future Directions
+**Predicting Additional Pollutants:** Extend the current model to predict other pollutants, such as PM2.5, PM10, SO2, NO2, and CO, beyond just the AQI. This would provide a more comprehensive view of air quality.
+**Geographic and Socioeconomic Considerations:** Include additional variables such as geographic terrain type and socioeconomic factors to improve the accuracy of predictions and provide targeted warnings to specific vulnerable groups.
+**Mobile Application Integration:** Develop a mobile application to make AQI predictions and information available on-the-go, increasing accessibility.
+**Regional Comparisons:** Expand the dashboard's functionality to allow users to compare air quality between multiple regions or cities.
+
 
 ## How to Run the Project
 
