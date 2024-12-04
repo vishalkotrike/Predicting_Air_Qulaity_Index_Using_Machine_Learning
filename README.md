@@ -7,16 +7,20 @@ This project is my Master's capstone project in Data Science. The goal is to dev
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Data Collection](#data-collection)
-3. [Methodology](#methodology)
-4. [Results](#results)
-5. [Conclusion](#conclusion)
-6. [Future Directions](#futureDirections)
-7. [How to Run the Project](#HowtoRuntheProject)
+2. [Objective](#objective)
+3. [Data Collection](#data-collection)
+4. [Methodology](#methodology)
+5. [Results](#results)
+6. [Conclusion](#conclusion)
+7. [Future Directions](#futureDirections)
+8. [How to Run the Project](#HowtoRuntheProject)
 
 
 ## Introduction
 Air pollution is a critical problem that impacts both public health and the environment. According to the World Health Organization, air pollution causes millions of deaths each year, and it contributes significantly to climate change. With rising pollution levels in many parts of the world, there is an urgent need for tools that can predict air quality and help mitigate its negative impacts. This project aims to create a predictive model that forecasts Air Quality Index (AQI) levels, helping authorities and the public take preemptive actions.
+
+## Objective
+This project aims to create a predictive model that forecasts Air Quality Index (AQI) levels for the next day, helping authorities and the public take preemptive actions.
 
 ## Data Collection
 The data used in this project was obtained from the U.S. Environmental Protection Agency (EPA). The datasets were downloaded using BeautifulSoup for web scraping, and the data is provided in CSV format. The datasets cover air quality and meteorological data from 2016 to 2024, containing about 1.6 million rows each. The key variables include:
@@ -48,8 +52,11 @@ The predictive model developed in this project effectively forecasts AQI levels,
 
 ## Future Directions
 **Predicting Additional Pollutants:** Extend the current model to predict other pollutants, such as PM2.5, PM10, SO2, NO2, and CO, beyond just the AQI. This would provide a more comprehensive view of air quality.
+
 **Geographic and Socioeconomic Considerations:** Include additional variables such as geographic terrain type and socioeconomic factors to improve the accuracy of predictions and provide targeted warnings to specific vulnerable groups.
+
 **Mobile Application Integration:** Develop a mobile application to make AQI predictions and information available on-the-go, increasing accessibility.
+
 **Regional Comparisons:** Expand the dashboard's functionality to allow users to compare air quality between multiple regions or cities.
 
 
