@@ -52,7 +52,16 @@ The model is effective at predicting AQI levels and can help forecast air qualit
 The predictive model developed in this project effectively forecasts AQI levels, allowing authorities and the public to take preemptive measures. Further improvement could be achieved by incorporating additional data sources or exploring advanced ensemble techniques.
 
 ## Limitations
-The model cannot predict AQI during extreme events.
+While our AQI prediction model provides useful insights, it is important to understand its limitations to have a realistic expectation of its performance:
+
+1. **Prediction Accuracy**: The predicted values may not always be completely accurate, especially during conditions where there is significant variability in weather or pollution. The model relies on historical data and current weather conditions, which may not capture all dynamics affecting air quality.
+
+2. **Inability to Predict Extreme Events**: The model is not designed to predict AQI during extreme events such as wildfires, industrial accidents, or natural disasters. These events can significantly alter air quality in ways that the model, trained on regular conditions, cannot accurately account for.
+
+3. **Data Limitations**: The model's performance is dependent on the quality and availability of real-time data from the APIs. Any inaccuracies or missing data from the external sources can affect the reliability of the prediction.
+
+4. **Short-Term Forecasting Only**: The model is currently designed to predict AQI for the next day only. Long-term forecasts are not supported, and attempting to use this model for such purposes could result in highly inaccurate predictions.
+
 
 ## Future Directions
 **Predicting Additional Pollutants:** Extend the current model to predict other pollutants, such as PM2.5, PM10, SO2, NO2, and CO, beyond just the AQI. This would provide a more comprehensive view of air quality.
