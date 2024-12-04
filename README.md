@@ -80,8 +80,11 @@ While our AQI prediction model provides useful insights, it is important to unde
 **Data Collection:**
 
 The data was collected from the U.S. Environmental Protection Agency (EPA) website.
+
 We used web scraping with a tool called BeautifulSoup to download the datasets.
+
 The collected datasets were provided in CSV format.
+
 
 **Data Preparation:**
 
@@ -89,7 +92,8 @@ All the downloaded files were combined into a single dataset.
 
 Pre-processing steps such as cleaning, handling missing values, and normalization were performed to prepare the data for modeling.
 
-**Library Installation:**
+
+**Libraries Installation:**
 
 Install the necessary libraries using the following command:
 
@@ -97,17 +101,20 @@ pip install -r requirements.txt
 
 The libraries required include pandas, numpy, scikit-learn, catboost, matplotlib, seaborn, and streamlit.
 
+
 **Literature Research and Exploratory Data Analysis (EDA):**
 
 We conducted a literature review to understand the methodologies used in similar projects.
 
 Exploratory Data Analysis (EDA) was performed to visualize the data and identify trends.
 
+
 **Model Development:**
 
 We developed ensemble models, including Random Forest, CatBoost, and Gradient Boosting.
 
 The models were trained and evaluated using the prepared dataset.
+
 
 **Project Structure and File Upload:**
 
@@ -121,6 +128,7 @@ images/: Contains visualizations and plots used in the project.
 
 docs/: Contains documentation and reports.
 
+
 **Run the Dashboard:**
 
 To demonstrate the results, a Streamlit dashboard was created.
@@ -128,7 +136,6 @@ To demonstrate the results, a Streamlit dashboard was created.
 To run the dashboard, use the following link:
 
 [streamlit run dashboard.py](https://capstoneprojectdata606.streamlit.app/)
-
 
 The dashboard allows users to predict AQI levels and see predicted AQI values interactively.
 
