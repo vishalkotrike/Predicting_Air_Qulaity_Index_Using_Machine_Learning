@@ -88,10 +88,6 @@ datasets/: Contains the air quality datasets from EPA.
 
 notebooks/: Contains Jupyter notebooks for data preprocessing, EDA, and model training.
 
-images/: Contains visualizations and plots used in the project.
-
-docs/: Contains documentation and reports.
-
 **Run the Dashboard:**
 
 To demonstrate the results, a Streamlit dashboard was created.
