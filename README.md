@@ -11,6 +11,7 @@ This project is my Master's capstone project in Data Science. The goal is to dev
 3. [Methodology](#methodology)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
+6. [How to Run the Project](#HowtoRuntheProject)
 
 ## Introduction
 Air pollution is a critical problem that impacts both public health and the environment. According to the World Health Organization, air pollution causes millions of deaths each year, and it contributes significantly to climate change. With rising pollution levels in many parts of the world, there is an urgent need for tools that can predict air quality and help mitigate its negative impacts. This project aims to create a predictive model that forecasts Air Quality Index (AQI) levels, helping authorities and the public take preemptive actions.
@@ -42,4 +43,62 @@ The model is effective at predicting AQI levels and can help forecast air qualit
 
 ## Conclusion
 The predictive model developed in this project effectively forecasts AQI levels, allowing authorities and the public to take preemptive measures. Further improvement could be achieved by incorporating additional data sources or exploring advanced ensemble techniques.
+
+## How to Run the Project
+
+**Data Collection:**
+
+The data was collected from the U.S. Environmental Protection Agency (EPA) website.
+
+We used web scraping with a tool called BeautifulSoup to download the datasets.
+
+The collected datasets were provided in CSV format.
+
+**Data Preparation:**
+
+All the downloaded files were combined into a single dataset.
+
+Pre-processing steps such as cleaning, handling missing values, and normalization were performed to prepare the data for modeling.
+
+**Library Installation:**
+
+Install the necessary libraries using the following command:
+
+pip install -r requirements.txt
+
+The libraries required include pandas, numpy, scikit-learn, catboost, matplotlib, seaborn, and streamlit.
+
+**Literature Research and Exploratory Data Analysis (EDA):**
+
+We conducted a literature review to understand the methodologies used in similar projects.
+
+Exploratory Data Analysis (EDA) was performed to visualize the data and identify trends.
+
+**Model Development:**
+
+We developed ensemble models, including Random Forest, CatBoost, and Gradient Boosting.
+
+The models were trained and evaluated using the prepared dataset.
+
+**Project Structure and File Upload:**
+
+The files were organized in a neat and structured format:
+
+datasets/: Contains the air quality datasets from EPA.
+
+notebooks/: Contains Jupyter notebooks for data preprocessing, EDA, and model training.
+
+images/: Contains visualizations and plots used in the project.
+
+docs/: Contains documentation and reports.
+
+**Run the Dashboard:**
+
+To demonstrate the results, a Streamlit dashboard was created.
+
+To run the dashboard, use the following command:
+
+streamlit run dashboard.py
+
+The dashboard allows users to visualize pollutant levels and see predicted AQI values interactively.
 
