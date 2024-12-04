@@ -33,7 +33,7 @@ st.markdown(
 )
 
 # Add an image header
-st.image("/Users/akshayreddy/Documents/CapstoneGit/AQI.jpeg", use_container_width=True)
+st.image("CapstoneGit/AQI.jpeg", use_container_width=True)
 
 # User inputs the city
 st.markdown(
