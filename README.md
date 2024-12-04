@@ -12,8 +12,9 @@ This project is my Master's capstone project in Data Science. The goal is to dev
 4. [Methodology](#methodology)
 5. [Results](#results)
 6. [Conclusion](#conclusion)
-7. [Future Directions](#futureDirections)
-8. [How to Run the Project](#HowtoRuntheProject)
+7. [Limitations](#limitations)
+8. [Future Directions](#futureDirections)
+9. [How to Run the Project](#HowtoRuntheProject)
 
 
 ## Introduction
@@ -49,6 +50,9 @@ The model is effective at predicting AQI levels and can help forecast air qualit
 
 ## Conclusion
 The predictive model developed in this project effectively forecasts AQI levels, allowing authorities and the public to take preemptive measures. Further improvement could be achieved by incorporating additional data sources or exploring advanced ensemble techniques.
+
+## Limitations
+The model cannot predict AQI during extreme events.
 
 ## Future Directions
 **Predicting Additional Pollutants:** Extend the current model to predict other pollutants, such as PM2.5, PM10, SO2, NO2, and CO, beyond just the AQI. This would provide a more comprehensive view of air quality.
