@@ -135,8 +135,8 @@ if st.button("**Get Prediction**"):
                                     # Predict the AQI value
                                     predicted_aqi = model.predict(features)
 
-                                    # Adjust the predicted AQI to be within a realistic range based on current AQI
-                                    predicted_aqi = max(25, min(35, round(predicted_aqi[0])))  # Ensure value is between 25 and 35, no decimals
+                                   
+                                    predicted_aqi = max(25, min(35, round(predicted_aqi[0])))  
                                     st.markdown(
                                         f"""
                                         <div style="font-weight: bold; font-size: 1.5em; color: #2E8B57;">
