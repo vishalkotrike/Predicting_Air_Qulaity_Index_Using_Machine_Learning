@@ -11,7 +11,7 @@ This project is my Master's capstone project in Data Science. The goal is to dev
 3. [Methodology](#methodology)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
-6. [Future Direction] (#futureDirections)
+6. [Future Direction](#futureDirections)
 7. [How to Run the Project](#HowtoRuntheProject)
 
 
