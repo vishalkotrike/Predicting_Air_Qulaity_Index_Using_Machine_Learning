@@ -31,6 +31,8 @@ The data used in this project was obtained from the U.S. Environmental Protectio
 
 After data collection, pre-processing steps such as cleaning, handling missing values, and normalization were conducted to prepare the data for modeling.
 
+**Source Link:** https://www.epa.gov/data
+
 ## Methodology
 A supervised learning approach was used, focusing on regression models to predict AQI. The following models were tested:
 
