@@ -96,9 +96,10 @@ docs/: Contains documentation and reports.
 
 To demonstrate the results, a Streamlit dashboard was created.
 
-To run the dashboard, use the following command:
+To run the dashboard, use the following link:
 
-streamlit run dashboard.py
+[streamlit run dashboard.py](https://capstoneprojectdata606.streamlit.app/)
 
-The dashboard allows users to visualize pollutant levels and see predicted AQI values interactively.
+
+The dashboard allows users to predict AQI levels and see predicted AQI values interactively.
 
